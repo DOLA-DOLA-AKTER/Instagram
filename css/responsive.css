@@ -1,6 +1,6 @@
-@media (max-width : 412px){
+/* @media (max-width : 412px){ */
     /* All css */
-section{
+/* section{
         margin: 50px 0 40px 0;
     }
    
@@ -18,19 +18,19 @@ section{
     font-size: 12px;
     line-height: 17px;
     padding-bottom: 30px;
-}
+} */
 
 /* Navbar Start */
-
+/* 
 ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
     text-align: center;
 }
 .search {
         justify-content: center;
-    }
+    } */
 
  /* Banner Start */
-
+/* 
  #banner .banner_info h1 {
     font-size: 33px;
     line-height: 47px;
@@ -51,10 +51,10 @@ button.btn.btn-danger {
     left: 75%;
     width: 80px;
     height: 80px;
-}
+} */
 
 /* Counter Start */
-
+/* 
 .counter_part {
     padding: 50px 50px;
 }
@@ -64,10 +64,10 @@ button.btn.btn-danger {
 }
 .counter_info1 {
     text-align: center;
-}
+} */
 
 /* How Pump Insta Work Start */
-
+/* 
 .work_item {
     padding: 30px 35px;
     width: 370px;
@@ -80,6 +80,230 @@ h4 {
     font-size: 19px;
     font-weight: 600;
     padding: 20px 0px 14px 0;
+} */
+
+/* Video Start */
+/* 
+.video .play_button {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.video .play_button img {
+    width: 20px;
+    height: 31px;
+}
+@keyframes animate-pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.150),  0 0 0 0 rgba(253, 0, 0, 0.150);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.070),  0 0 0 15px rgba(253, 0, 0, 0.070);
+    }
+}
+.rotate {
+    width: 80px;
+    height: 80px;
+    bottom: -90px;
+    right: -0px;
+} */
+
+ /* Why choose Pump Insta Start */
+/* 
+#punp_insta {
+    padding: 50px 0;
+}
+.punp_insta {
+   padding: 30px 35px;
+width: 370px;
+}
+.work_icon {
+    width: 50.29px;
+    height: 50.29px;
+} */
+
+/* How Pump Insta Work Start  */
+
+/* .insta_work_2 .red img{
+    width: 0%;
+}
+
+.insta_work_2 .insta-box {
+    padding: 45px 70px;
+    width: 370px;
+}
+.insta_work_2 .insta-box ul li {
+    font-size: 14px;
+    line-height: 25px;
+}
+.insta_work_2 .insta-box h2 {
+    padding: 15px 0 30px 0;
+    font-size: 35px;
+}
+.insta_work_2 .insta-box h3 {
+    font-size: 23px;
+    padding: 30px 0 18px 0;
+}
+.insta_work_2 .saving {
+    padding: 8px 50px;
+    font-size: 12px;
+} */
+
+/* Our Customer Rating Start */
+/* 
+.customer img{
+   width: 0%;
+}
+.customer_info {
+    width: 370px;
+}
+#customer .section_heading p {
+    padding-bottom: 30px;
+}
+.customer_info .top h5 {
+    font-size: 14px;
+    line-height: 10px;
+}
+.customer_info {
+    margin-top: 0px;
+}
+.customer_info .top .img1 {
+    width: 57px;
+    height: 57px;
+}
+.customer_info .top h5 {
+    padding: 0px 70px 0px 5px;
+    
+}
+.customer_info .top .img2 {
+    width: 32.35px;
+}
+.customer_info .text {
+    padding: 20px 25px;
+    margin: 13px 0;
+}
+.customer_info {
+    padding: 33px 34px 5px;
+} */
+
+/* Everything You Need to Know Start */
+
+/* button.accordion-button {
+    font-size: 14px;
+}
+.accordion-item {
+    margin-top: 10px;
+}
+h2.accordion-header {
+    padding: 0px 0px;
+}
+.accordion-body {
+    font-size: 12px;
+} */
+
+/* Footer Start */
+/* 
+footer {
+    padding: 40px 0;
+}
+.footer_info h4 {
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+.footer_info ul li {
+    font-size: 12px;
+    line-height: 20px;
+} */
+
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 576px){
+
+    /* All css */
+
+    section{
+        margin: 50px 0 40px 0;
+    }
+    .section_heading h2 {
+        font-size: 28px;
+    }
+    .section_heading p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 30px;
+        padding-top: 5px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    button.btn.btn-danger {
+        padding: 12px 28px;
+        font-size: 14px;
+    } 
+
+    /* Navber Css */
+
+    .navbar-nav{
+        text-align: center;
+    }
+    .search {
+        justify-content: center;
+    }
+
+    /* Banner Css */
+
+    #banner{
+        padding-top: 15px;
+    }
+    #banner .banner_info h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    #banner .banner_info p {
+        padding: 10px 0 15px 0;
+    }
+
+    /* counter Part */
+
+    .counter_info1{
+        text-align: center;
+    }
+    .counter_part {
+        padding: 50px ;
+    }
+    .counter_part h3 {
+        font-size: 25px;
+        line-height: 18px;
+    }
+
+    /* How Pump Insta Work Start */
+
+    .work_item {
+        width: 100%;
+        padding: 40px;
+}
+h4 {
+    font-size: 17px;
+    padding: 20px 0px 10px 0;
+}
+.work_icon {
+    width: 50.29px;
+    height: 50.29px;
 }
 
 /* Video Start */
@@ -114,243 +338,8 @@ h4 {
     padding: 50px 0;
 }
 .punp_insta {
-   padding: 30px 35px;
-width: 370px;
-}
-.work_icon {
-    width: 50.29px;
-    height: 50.29px;
-}
-
-/* How Pump Insta Work Start  */
-
-.insta_work_2 .red img{
-    width: 0%;
-}
-
-.insta_work_2 .insta-box {
-    padding: 45px 70px;
-    width: 370px;
-}
-.insta_work_2 .insta-box ul li {
-    font-size: 14px;
-    line-height: 25px;
-}
-.insta_work_2 .insta-box h2 {
-    padding: 15px 0 30px 0;
-    font-size: 35px;
-}
-.insta_work_2 .insta-box h3 {
-    font-size: 23px;
-    padding: 30px 0 18px 0;
-}
-.insta_work_2 .saving {
-    padding: 8px 50px;
-    font-size: 12px;
-}
-
-/* Our Customer Rating Start */
-
-.customer img{
-   width: 0%;
-}
-.customer_info {
-    width: 370px;
-}
-#customer .section_heading p {
-    padding-bottom: 30px;
-}
-.customer_info .top h5 {
-    font-size: 14px;
-    line-height: 10px;
-}
-.customer_info {
-    margin-top: 0px;
-}
-.customer_info .top .img1 {
-    width: 57px;
-    height: 57px;
-}
-.customer_info .top h5 {
-    padding: 0px 70px 0px 5px;
-    
-}
-.customer_info .top .img2 {
-    width: 32.35px;
-}
-.customer_info .text {
-    padding: 20px 25px;
-    margin: 13px 0;
-}
-.customer_info {
-    padding: 33px 34px 5px;
-}
-
-/* Everything You Need to Know Start */
-
-button.accordion-button {
-    font-size: 14px;
-}
-.accordion-item {
-    margin-top: 10px;
-}
-h2.accordion-header {
-    padding: 0px 0px;
-}
-.accordion-body {
-    font-size: 12px;
-}
-
-/* Footer Start */
-
-footer {
-    padding: 40px 0;
-}
-.footer_info h4 {
-    padding-bottom: 8px;
-    font-size: 14px;
-}
-.footer_info ul li {
-    font-size: 12px;
-    line-height: 20px;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width : 413px) and (max-width : 576px){
-
-    /* All css */
-
-    section{
-        margin: 80px 0 70px 0;
-    }
-    .section_heading h2 {
-        font-size: 35px;
-    }
-    .section_heading p {
-        width: 500px;
-        font-size: 14px;
-        line-height: 20px;
-        padding-bottom: 40px;
-        padding-top: 10px;
-    }
-    p{
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    /* Navber Css */
-
-    .navbar-nav{
-        padding-top: 10px;
-        text-align: center;
-    }
-    .search {
-        justify-content: center;
-    }
-    #banner{
-        padding-top: 20px;
-    }
-    #banner .banner_info h1 {
-        font-size: 40px;
-        line-height: 55px;
-    }
-    a.nav-link {
-        color: #4B4B4B;
-        font-size: 18px;
-        font-weight: 500;
-    }
-
-    /* Navber Css */
-
-    button.btn.btn-danger {
-        padding: 12px 28px;
-        font-size: 14px;
-    }
-    #banner .banner_info p {
-        padding: 15px 0 20px 0;
-    }
-
-    /* counter Part */
-
-    .counter_info1{
-        text-align: center;
-    }
-    .counter_part {
-        padding: 60px 90px;
-    }
-    .counter_part h3 {
-        font-size: 30px;
-        line-height: 26px;
-    }
-
-    /* How Pump Insta Work Start */
-
-    .work_item {
-    padding: 50px 40px;
-}
-h4 {
-    font-size: 20px;
-    padding: 20px 0px 15px 0;
-}
-.work_icon {
-    width: 60.29px;
-    height: 60.29px;
-}
-
-/* Video Start */
-
-.video .play_button {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-}
-.video .play_button img {
-    width: 20px;
-    height: 31px;
-}
-@keyframes animate-pulse{
-    0%{
-        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.150),  0 0 0 0 rgba(253, 0, 0, 0.150);
-    }
-    100%{
-        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.070),  0 0 0 15px rgba(253, 0, 0, 0.070);
-    }
-}
-.rotate {
-    width: 100px;
-    height: 100px;
-    bottom: -132px;
-    right: -0px;
-}
-
- /* Why choose Pump Insta Start */
-
-#punp_insta {
-    padding: 70px 0;
-}
-.punp_insta {
-    padding: 40px 37px;
+    width: 100%;
+    padding: 30px 37px;
 }
 
 /* How Pump Insta Work Start */
@@ -359,7 +348,8 @@ h4 {
     width: 0%;
 }
 .insta_work_2 .insta-box {
-    padding: 40px 105px;
+    width: 100%;
+    padding: 40px 90px;
 }
 .insta_work_2 .insta-box h3 {
     font-size: 20px;
@@ -382,9 +372,13 @@ h4 {
 #customer .section_heading p {
     padding-bottom: 40px;
 }
+.customer_info{
+    width: 100%;
+}
 .customer_info .top h5 {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 20px;
+    padding: 0px 60px 0px 10px;
 }
 .customer_info .text {
     padding: 20px 30px;
@@ -398,23 +392,33 @@ h4 {
 .customer .section_heading p{
     padding-bottom: 60px;
 }
+h2.accordion-header {
+    padding: 3px 0px;
+    font-weight: 800;
+}
 
 /* Footer Start */
 
 footer {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 .footer_info h4 {
     padding-bottom: 10px;
 }
+.footer_info h4 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
 .footer_info ul li {
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 25px;
 }
 
 }
 
 /* ========== @media (max-width : 576px) End ========== */
+
+
 @media (min-width : 576px) and (max-width : 992px){
 
     /* All css */
@@ -426,7 +430,7 @@ margin: 110px 0 80px 0;
     font-size: 35px;
 }
 .section_heading p {
-    width: 727px;
+    width: 100%;
     padding-top: 10px;
     font-size: 15px;
     line-height: 25px;
