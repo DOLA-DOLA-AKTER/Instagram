@@ -1,0 +1,327 @@
+@media (min-width : 320px) and (max-width : 576px){
+    section{
+        margin: 80px 0 70px 0;
+    }
+    .section_heading h2 {
+        font-size: 35px;
+    }
+    .section_heading p {
+        width: 500px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* All css */
+
+    .navbar-nav{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .search {
+        justify-content: center;
+    }
+    #banner{
+        padding-top: 20px;
+    }
+    #banner .banner_info h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    a.nav-link {
+        color: #4B4B4B;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    button.btn.btn-danger {
+        padding: 12px 28px;
+        font-size: 14px;
+    }
+    #banner .banner_info p {
+        padding: 15px 0 20px 0;
+    }
+
+    /* counter Part */
+
+    .counter_info1{
+        text-align: center;
+    }
+    .counter_part {
+        padding: 60px 90px;
+    }
+    .counter_part h3 {
+        font-size: 30px;
+        line-height: 26px;
+    }
+
+    /* How Pump Insta Work Start */
+
+    .work_item {
+    padding: 50px 40px;
+}
+h4 {
+    font-size: 20px;
+    padding: 20px 0px 15px 0;
+}
+.work_icon {
+    width: 60.29px;
+    height: 60.29px;
+}
+
+/* Video Start */
+
+.video .play_button {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.video .play_button img {
+    width: 20px;
+    height: 31px;
+}
+@keyframes animate-pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.150),  0 0 0 0 rgba(253, 0, 0, 0.150);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.070),  0 0 0 15px rgba(253, 0, 0, 0.070);
+    }
+}
+.rotate {
+    width: 100px;
+    height: 100px;
+    bottom: -132px;
+    right: -0px;
+}
+
+ /* Why choose Pump Insta Start */
+
+#punp_insta {
+    padding: 70px 0;
+}
+.punp_insta {
+    padding: 40px 37px;
+}
+
+/* How Pump Insta Work Start */
+
+.insta_work_2 .red{
+    width: 0%;
+}
+.insta_work_2 .insta-box {
+    padding: 40px 105px;
+}
+.insta_work_2 .insta-box h3 {
+    font-size: 20px;
+    padding: 30px 0 20px 0;
+}
+.insta_work_2 .insta-box h2 {
+    padding: 15px 0 30px 0;
+    font-size: 40px;
+}
+.insta_work_2 .saving {
+    padding: 8px 68px;
+    font-size: 15px;
+}
+
+/* Our Customer Rating Start */
+
+.customer img{
+   width: 0%;
+}
+#customer .section_heading p {
+    padding-bottom: 40px;
+}
+.customer_info .top h5 {
+    font-size: 17px;
+    line-height: 20px;
+}
+.customer_info .text {
+    padding: 20px 30px;
+}
+.customer_info {
+    margin-top: 0px;
+}
+
+/* Everything You Need to Know Start */
+
+.customer .section_heading p{
+    padding-bottom: 60px;
+}
+
+/* Footer Start */
+
+footer {
+    padding: 80px 0;
+}
+.footer_info h4 {
+    padding-bottom: 10px;
+}
+.footer_info ul li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+}
+
+/* ========== @media (max-width : 576px) End ========== */
+@media (min-width : 576px) and (max-width : 992px){
+
+    /* All css */
+
+section{
+margin: 110px 0 80px 0;
+}
+.section_heading h2 {
+    font-size: 35px;
+}
+.section_heading p {
+    width: 727px;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+p{
+    font-size: 15px;
+    line-height: 25px;
+}
+h4 {
+    font-size: 22px;
+    padding: 30px 0px 20px 0;
+}
+
+/* Navber Css */
+
+a.nav-link {
+    text-align: center;
+    padding-top: 10px;
+}
+.search {
+    justify-content: center;
+}
+
+/* Banner Css */
+
+#banner{
+    padding-top: 30px;
+}
+#banner .banner_info h1 {
+    font-size: 50px;
+    line-height: 65px;
+}
+#banner .banner_info p {
+    padding: 15px 0 20px 0;
+}
+button.btn.btn-danger {
+    padding: 13px 32px;
+    font-size: 17px;
+}
+
+/* Counter Part */
+
+.counter_info1 {
+    text-align: center;
+}
+.counter_part {
+    padding: 60px 50px;
+}
+.counter_part h3 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+/* How Pump Insta Work Start */
+
+.work_item {
+    padding: 55px;
+}
+
+/* Video Start  */
+
+.video .play_button {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+}
+.video .play_button img {
+    width: 32px;
+    height: 48px;
+}
+
+@keyframes animate-pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.150),  0 0 0 0 rgba(253, 0, 0, 0.150);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.070),  0 0 0 20px rgba(253, 0, 0, 0.070);
+    }
+}
+
+.rotate {
+    bottom: -182px;
+    right: 0;
+}
+
+/* Why choose Pump Insta Start */
+
+#punp_insta {
+    padding: 100px 0;
+}
+.punp_insta {
+    padding: 50px 45px;
+}
+.insta_work_2 .red img{
+    width: 0%;
+}
+.insta_work_2 .insta-box h3 {
+    font-size: 20px;
+    padding: 35px 0 20px 0;
+}
+.insta_work_2 .insta-box h2 {
+    padding: 20px 0 30px 0;
+    font-size: 43px;
+}
+.insta_work_2 .saving {
+    padding: 10px 56px;
+    font-size: 17px;
+}
+.insta_work_2 .insta-box {
+    padding: 60px 111px;
+}
+
+/* Our Customer Rating Start */
+
+.customer  img{
+   width: 0%;
+}
+.customer_info .top h5 {
+    padding: 0px 78px 0px 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.customer_info .text {
+    padding: 27px 39px;
+}
+.customer_info {
+    margin-top: 0px;
+}
+#customer .section_heading p{
+    padding-bottom: 50px;
+}
+
+/* Footer Css */
+
+footer {
+    padding: 85px 0;
+}
+.footer_info h4 {
+    padding-bottom: 20px;
+}
+
+}
