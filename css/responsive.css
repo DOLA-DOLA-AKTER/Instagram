@@ -1,580 +1,350 @@
-/* @media (max-width : 412px){ */
-    /* All css */
-/* section{
-        margin: 50px 0 40px 0;
-    }
-   
-   
-    p{
-        font-size: 12px;
-        line-height: 15px;
-    }
-    .section_heading h2 {
-    font-size: 26px;
-}
-.section_heading p {
-    width: 380px;
+@media (max-width: 576px) {
+  /* All css */
+
+  section {
+    margin: 50px 0 40px 0;
+  }
+  .section_heading h2 {
+    font-size: 28px;
+  }
+  .section_heading p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 30px;
     padding-top: 5px;
+  }
+  p {
     font-size: 12px;
-    line-height: 17px;
-    padding-bottom: 30px;
-} */
-
-/* Navbar Start */
-/* 
-ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
-    text-align: center;
-}
-.search {
-        justify-content: center;
-    } */
-
- /* Banner Start */
-/* 
- #banner .banner_info h1 {
-    font-size: 33px;
-    line-height: 47px;
-}
-    #banner {
-    padding-top: 20px;
-}
-#banner .banner_info p {
-    padding: 10px 0 15px 0;
-    width: 350px;
-}
-button.btn.btn-danger {
-    padding: 11px 25px;
-    font-size: 15px;
-}
-#banner .banner_img .circle {
-    top: 80px;
-    left: 75%;
-    width: 80px;
-    height: 80px;
-} */
-
-/* Counter Start */
-/* 
-.counter_part {
-    padding: 50px 50px;
-}
-.counter_part h3 {
-    font-size: 25px;
-    line-height: 25px;
-}
-.counter_info1 {
-    text-align: center;
-} */
-
-/* How Pump Insta Work Start */
-/* 
-.work_item {
-    padding: 30px 35px;
-    width: 370px;
-}
-.work_icon {
-    width: 50.29px;
-    height: 50.29px;
-}
-h4 {
-    font-size: 19px;
-    font-weight: 600;
-    padding: 20px 0px 14px 0;
-} */
-
-/* Video Start */
-/* 
-.video .play_button {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-}
-.video .play_button img {
-    width: 20px;
-    height: 31px;
-}
-@keyframes animate-pulse{
-    0%{
-        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.150),  0 0 0 0 rgba(253, 0, 0, 0.150);
-    }
-    100%{
-        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.070),  0 0 0 15px rgba(253, 0, 0, 0.070);
-    }
-}
-.rotate {
-    width: 80px;
-    height: 80px;
-    bottom: -90px;
-    right: -0px;
-} */
-
- /* Why choose Pump Insta Start */
-/* 
-#punp_insta {
-    padding: 50px 0;
-}
-.punp_insta {
-   padding: 30px 35px;
-width: 370px;
-}
-.work_icon {
-    width: 50.29px;
-    height: 50.29px;
-} */
-
-/* How Pump Insta Work Start  */
-
-/* .insta_work_2 .red img{
-    width: 0%;
-}
-
-.insta_work_2 .insta-box {
-    padding: 45px 70px;
-    width: 370px;
-}
-.insta_work_2 .insta-box ul li {
+    line-height: 18px;
+  }
+  button.btn.btn-danger {
+    padding: 12px 28px;
     font-size: 14px;
-    line-height: 25px;
-}
-.insta_work_2 .insta-box h2 {
-    padding: 15px 0 30px 0;
+  }
+
+  /* Navber Css */
+
+  .navbar-nav {
+    text-align: center;
+  }
+  .search {
+    justify-content: center;
+  }
+
+  /* Banner Css */
+
+  #banner {
+    padding-top: 15px;
+  }
+  #banner .banner_info h1 {
     font-size: 35px;
-}
-.insta_work_2 .insta-box h3 {
-    font-size: 23px;
-    padding: 30px 0 18px 0;
-}
-.insta_work_2 .saving {
-    padding: 8px 50px;
-    font-size: 12px;
-} */
+    line-height: 45px;
+  }
+  #banner .banner_info p {
+    padding: 10px 0 15px 0;
+  }
 
-/* Our Customer Rating Start */
-/* 
-.customer img{
-   width: 0%;
-}
-.customer_info {
-    width: 370px;
-}
-#customer .section_heading p {
-    padding-bottom: 30px;
-}
-.customer_info .top h5 {
-    font-size: 14px;
-    line-height: 10px;
-}
-.customer_info {
-    margin-top: 0px;
-}
-.customer_info .top .img1 {
-    width: 57px;
-    height: 57px;
-}
-.customer_info .top h5 {
-    padding: 0px 70px 0px 5px;
-    
-}
-.customer_info .top .img2 {
-    width: 32.35px;
-}
-.customer_info .text {
-    padding: 20px 25px;
-    margin: 13px 0;
-}
-.customer_info {
-    padding: 33px 34px 5px;
-} */
+  /* counter Part */
 
-/* Everything You Need to Know Start */
+  .counter_info1 {
+    text-align: center;
+  }
+  .counter_part {
+    padding: 50px;
+  }
+  .counter_part h3 {
+    font-size: 25px;
+    line-height: 18px;
+  }
 
-/* button.accordion-button {
-    font-size: 14px;
-}
-.accordion-item {
-    margin-top: 10px;
-}
-h2.accordion-header {
-    padding: 0px 0px;
-}
-.accordion-body {
-    font-size: 12px;
-} */
+  /* How Pump Insta Work Start */
 
-/* Footer Start */
-/* 
-footer {
-    padding: 40px 0;
-}
-.footer_info h4 {
-    padding-bottom: 8px;
-    font-size: 14px;
-}
-.footer_info ul li {
-    font-size: 12px;
-    line-height: 20px;
-} */
-
-/* } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width : 576px){
-
-    /* All css */
-
-    section{
-        margin: 50px 0 40px 0;
-    }
-    .section_heading h2 {
-        font-size: 28px;
-    }
-    .section_heading p {
-        width: 100%;
-        font-size: 12px;
-        line-height: 18px;
-        padding-bottom: 30px;
-        padding-top: 5px;
-    }
-    p{
-        font-size: 12px;
-        line-height: 18px;
-    }
-    button.btn.btn-danger {
-        padding: 12px 28px;
-        font-size: 14px;
-    } 
-
-    /* Navber Css */
-
-    .navbar-nav{
-        text-align: center;
-    }
-    .search {
-        justify-content: center;
-    }
-
-    /* Banner Css */
-
-    #banner{
-        padding-top: 15px;
-    }
-    #banner .banner_info h1 {
-        font-size: 35px;
-        line-height: 45px;
-    }
-    #banner .banner_info p {
-        padding: 10px 0 15px 0;
-    }
-
-    /* counter Part */
-
-    .counter_info1{
-        text-align: center;
-    }
-    .counter_part {
-        padding: 50px ;
-    }
-    .counter_part h3 {
-        font-size: 25px;
-        line-height: 18px;
-    }
-
-    /* How Pump Insta Work Start */
-
-    .work_item {
-        width: 100%;
-        padding: 40px;
-}
-h4 {
+  .work_item {
+    width: 100%;
+    padding: 40px;
+  }
+  h4 {
     font-size: 17px;
     padding: 20px 0px 10px 0;
-}
-.work_icon {
+  }
+  .work_icon {
     width: 50.29px;
     height: 50.29px;
-}
+  }
 
-/* Video Start */
+  /* Video Start */
 
-.video .play_button {
+  .video .play_button {
     width: 50px;
     height: 50px;
     line-height: 50px;
-}
-.video .play_button img {
+  }
+  .video .play_button img {
     width: 20px;
     height: 31px;
-}
-@keyframes animate-pulse{
-    0%{
-        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.150),  0 0 0 0 rgba(253, 0, 0, 0.150);
+  }
+  @keyframes animate-pulse {
+    0% {
+      box-shadow:
+        0 0 0 0 rgba(253, 0, 0, 0.15),
+        0 0 0 0 rgba(253, 0, 0, 0.15);
     }
-    100%{
-        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.070),  0 0 0 15px rgba(253, 0, 0, 0.070);
+    100% {
+      box-shadow:
+        0 0 0 0 rgba(253, 0, 0, 0.07),
+        0 0 0 15px rgba(253, 0, 0, 0.07);
     }
-}
-.rotate {
+  }
+  .rotate {
     width: 80px;
     height: 80px;
     bottom: -90px;
     right: -0px;
-}
+  }
 
- /* Why choose Pump Insta Start */
+  /* Why choose Pump Insta Start */
 
-#punp_insta {
+  #punp_insta {
     padding: 50px 0;
-}
-.punp_insta {
+  }
+  .punp_insta {
     width: 100%;
     padding: 30px 37px;
-}
+  }
 
-/* How Pump Insta Work Start */
+  /* How Pump Insta Work Start */
 
-.insta_work_2 .red{
+  .insta_work_2 .red {
     width: 0%;
-}
-.insta_work_2 .insta-box {
+  }
+  .insta_work_2 .insta-box {
     width: 100%;
     padding: 40px 90px;
-}
-.insta_work_2 .insta-box h3 {
+  }
+  .insta_work_2 .insta-box h3 {
     font-size: 20px;
     padding: 30px 0 20px 0;
-}
-.insta_work_2 .insta-box h2 {
+  }
+  .insta_work_2 .insta-box h2 {
     padding: 15px 0 30px 0;
     font-size: 40px;
-}
-.insta_work_2 .saving {
+  }
+  .insta_work_2 .saving {
     padding: 8px 68px;
     font-size: 15px;
-}
+  }
 
-/* Our Customer Rating Start */
+  /* Our Customer Rating Start */
 
-.customer img{
-   width: 0%;
-}
-#customer .section_heading p {
+  .customer img {
+    width: 0%;
+  }
+  #customer .section_heading p {
     padding-bottom: 40px;
-}
-.customer_info{
+  }
+  .customer_info {
     width: 100%;
-}
-.customer_info .top h5 {
+  }
+  .customer_info .top h5 {
     font-size: 15px;
     line-height: 20px;
     padding: 0px 60px 0px 10px;
-}
-.customer_info .text {
+  }
+  .customer_info .text {
     padding: 20px 30px;
-}
-.customer_info {
+  }
+  .customer_info {
     margin-top: 0px;
-}
+  }
 
-/* Everything You Need to Know Start */
+  /* Everything You Need to Know Start */
 
-.customer .section_heading p{
+  .customer .section_heading p {
     padding-bottom: 60px;
-}
-h2.accordion-header {
+  }
+  h2.accordion-header {
     padding: 3px 0px;
     font-weight: 800;
-}
+  }
 
-/* Footer Start */
+  /* Footer Start */
 
-footer {
+  footer {
     padding: 50px 0;
-}
-.footer_info h4 {
+  }
+  .footer_info h4 {
     padding-bottom: 10px;
-}
-.footer_info h4 {
+  }
+  .footer_info h4 {
     font-size: 16px;
     padding-bottom: 10px;
-}
-.footer_info ul li {
+  }
+  .footer_info ul li {
     font-size: 12px;
     line-height: 25px;
-}
-
+  }
 }
 
 /* ========== @media (max-width : 576px) End ========== */
 
+@media (min-width: 577px) and (max-width: 992px) {
+  /* All css */
 
-@media (min-width : 576px) and (max-width : 992px){
-
-    /* All css */
-
-section{
-margin: 110px 0 80px 0;
-}
-.section_heading h2 {
+  section {
+    margin: 110px 0 80px 0;
+  }
+  .section_heading h2 {
     font-size: 35px;
-}
-.section_heading p {
+  }
+  .section_heading p {
     width: 100%;
     padding-top: 10px;
     font-size: 15px;
     line-height: 25px;
     padding-bottom: 50px;
-}
-p{
+  }
+  p {
     font-size: 15px;
     line-height: 25px;
-}
-h4 {
+  }
+  h4 {
     font-size: 22px;
     padding: 30px 0px 20px 0;
-}
+  }
 
-/* Navber Css */
+  /* Navber Css */
 
-a.nav-link {
+  a.nav-link {
     text-align: center;
     padding-top: 10px;
-}
-.search {
+  }
+  .search {
     justify-content: center;
-}
+  }
 
-/* Banner Css */
+  /* Banner Css */
 
-#banner{
+  #banner {
     padding-top: 30px;
-}
-#banner .banner_info h1 {
+  }
+  #banner .banner_info h1 {
     font-size: 50px;
     line-height: 65px;
-}
-#banner .banner_info p {
+  }
+  #banner .banner_info p {
+    width: 100%;
     padding: 15px 0 20px 0;
-}
-button.btn.btn-danger {
+  }
+  button.btn.btn-danger {
     padding: 13px 32px;
     font-size: 17px;
-}
+  }
 
-/* Counter Part */
+  /* Counter Part */
 
-.counter_info1 {
+  .counter_info1 {
     text-align: center;
-}
-.counter_part {
+  }
+  .counter_part {
     padding: 60px 50px;
-}
-.counter_part h3 {
+  }
+  .counter_part h3 {
     font-size: 30px;
     line-height: 30px;
-}
+  }
 
-/* How Pump Insta Work Start */
+  /* How Pump Insta Work Start */
 
-.work_item {
+  .work_item {
     padding: 55px;
-}
+  }
 
-/* Video Start  */
+  /* Video Start  */
 
-.video .play_button {
+  .video .play_button {
     width: 75px;
     height: 75px;
     line-height: 75px;
-}
-.video .play_button img {
+  }
+  .video .play_button img {
     width: 32px;
     height: 48px;
-}
+  }
 
-@keyframes animate-pulse{
-    0%{
-        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.150),  0 0 0 0 rgba(253, 0, 0, 0.150);
+  @keyframes animate-pulse {
+    0% {
+      box-shadow:
+        0 0 0 0 rgba(253, 0, 0, 0.15),
+        0 0 0 0 rgba(253, 0, 0, 0.15);
     }
-    100%{
-        box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.070),  0 0 0 20px rgba(253, 0, 0, 0.070);
+    100% {
+      box-shadow:
+        0 0 0 0 rgba(253, 0, 0, 0.07),
+        0 0 0 20px rgba(253, 0, 0, 0.07);
     }
-}
+  }
 
-.rotate {
+  .rotate {
     bottom: -182px;
     right: 0;
-}
+  }
 
-/* Why choose Pump Insta Start */
+  /* Why choose Pump Insta Start */
 
-#punp_insta {
+  #punp_insta {
     padding: 100px 0;
-}
-.punp_insta {
+  }
+  .punp_insta {
     padding: 50px 45px;
-}
-.insta_work_2 .red img{
+  }
+  .insta_work_2 .red img {
     width: 0%;
-}
-.insta_work_2 .insta-box h3 {
+  }
+  .insta_work_2 .insta-box h3 {
     font-size: 20px;
     padding: 35px 0 20px 0;
-}
-.insta_work_2 .insta-box h2 {
+  }
+  .insta_work_2 .insta-box h2 {
     padding: 20px 0 30px 0;
     font-size: 43px;
-}
-.insta_work_2 .saving {
+  }
+  .insta_work_2 .saving {
     padding: 10px 56px;
     font-size: 17px;
-}
-.insta_work_2 .insta-box {
+  }
+  .insta_work_2 .insta-box {
     padding: 60px 111px;
-}
+  }
 
-/* Our Customer Rating Start */
+  /* Our Customer Rating Start */
 
-.customer  img{
-   width: 0%;
-}
-.customer_info .top h5 {
+  .customer img {
+    width: 0%;
+  }
+  .customer_info .top h5 {
     padding: 0px 78px 0px 20px;
     font-size: 18px;
     line-height: 24px;
-}
-.customer_info .text {
+  }
+  .customer_info .text {
     padding: 27px 39px;
-}
-.customer_info {
+  }
+  .customer_info {
     margin-top: 0px;
-}
-#customer .section_heading p{
+  }
+  #customer .section_heading p {
     padding-bottom: 50px;
-}
+  }
 
-/* Footer Css */
+  /* Footer Css */
 
-footer {
+  footer {
     padding: 85px 0;
-}
-.footer_info h4 {
+  }
+  .footer_info h4 {
     padding-bottom: 20px;
-}
-
+  }
 }
 
 /* ========== @media (max-width : 992px) End ========== */
-
-
