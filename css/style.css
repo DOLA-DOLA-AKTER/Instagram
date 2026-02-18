@@ -66,6 +66,9 @@ h4{
 .row{
     gap: 30px 0;
 }
+.container{
+    margin: auto;
+}
 
 /* ----- All Css End ----- */
 
@@ -153,11 +156,11 @@ a.nav-link {
 
 /* How Pump Insta Work Start */
 
+
 .work_item{
     box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.082);
-    padding: 87px 61px 84px 60px;
+    padding: 55px 60px;
     border-radius: 30px;
-    width: 424px;
     height: 100%;
 }
 .work_icon{
@@ -170,7 +173,7 @@ a.nav-link {
 .video{
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
 }
 .video .play_button{
@@ -190,19 +193,28 @@ a.nav-link {
 }
 
 
-@keyframes animate-pulse{
+/* @keyframes animate-pulse{
     0%{
         box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.150),  0 0 0 0 rgba(253, 0, 0, 0.150);
     }
     100%{
         box-shadow: 0 0 0 0 rgba(253, 0, 0, 0.070),  0 0 0 30px rgba(253, 0, 0, 0.070);
     }
+} */
+
+@keyframes animate-pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(220, 212, 212, 0.603),  0 0 0 0 rgba(214, 205, 205, 0.632);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(183, 167, 167, 0.47),  0 0 0 30px rgba(191, 179, 179, 0.445);
+    }
 }
 
 .rotate{
     position: absolute;
     bottom: -220px;
-    right: -70px;
+    right: -60px;
     z-index: -1;
 }
 
@@ -214,7 +226,6 @@ a.nav-link {
 }
 .punp_insta{
     box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.082);
-    width: 424px;
     height: 100%;
     padding: 70px 50px;
     border-radius: 30px;
@@ -232,15 +243,15 @@ a.nav-link {
     top: 0;
 }
 .insta_work_2 .insta-box{
-    width: 424px;
     height: 100%;
-    padding: 65px 90px;
+    padding: 65px 60px;
     box-shadow: 0px 15px 50px #00000021;
     border-radius: 30px;
     text-align: center;
     cursor: pointer;
 }
 .insta_work_2 .saving{
+    border: none;
     background-color: #e9002324;
     padding: 11px 68px;
     border-radius: 5px;
@@ -257,6 +268,9 @@ a.nav-link {
 }
 .insta_work_2 .insta-box ul{
     padding-left: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .insta_work_2 .insta-box ul li{
     color: gray;
@@ -304,7 +318,6 @@ a.nav-link {
     padding-bottom: 0;
 }
 .customer_info{
-    width: 424px;
     box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.103);
     padding: 40px 40px 25px;
     border-radius: 30px;
